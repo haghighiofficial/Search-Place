@@ -120,32 +120,6 @@ Install directly from the official **Chrome Web Store** *(link coming soon upon 
 
 ---
 
-## 📁 Project Structure
-
-```text
-search-place/
-├── manifest.json         # Manifest V3 extension configuration
-├── popup.html            # Main popup UI markup
-├── popup.css             # Light theme styling & custom controls (#025f57)
-├── popup.js              # UULE generator, state sync & live geocoding controller
-├── fonts.css             # Offline Plus Jakarta Sans font definitions
-├── fonts/                # Local WOFF2 font files (400, 500, 600, 700)
-├── data/
-│   └── locations.js      # Curated database of countries, cities & districts
-├── icons/
-│   ├── icon16.png        # Toolbar icon (16x16)
-│   ├── icon32.png        # Retina toolbar icon (32x32)
-│   ├── icon48.png        # Extensions management icon (48x48)
-│   ├── icon128.png       # Chrome Web Store icon (128x128)
-│   ├── popup_logo.png    # In-app header brand logo
-│   └── icon.svg          # Vector icon asset
-├── LICENSE               # MIT License
-├── README.md             # Documentation
-└── STORE_LISTING.md      # CWS submission metadata & permission justifications
-```
-
----
-
 ## 🛡️ Permissions & Security
 
 | Permission | Scope | Justification |
